@@ -12,11 +12,9 @@ int getGuess() {
             std::cin.clear();
             std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
             std::cout << "Invalid number, try again." << '\n';
-            continue;
         } else if (guess < 1 || guess > 100) {
             std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
             std::cout << "Invalid number, try again." << '\n';
-            continue;
         } else return guess;
     }
 }
