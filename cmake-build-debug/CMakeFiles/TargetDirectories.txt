@@ -1,0 +1,3 @@
+/home/megalo/CLionProjects/hi-lo/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/megalo/CLionProjects/hi-lo/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/megalo/CLionProjects/hi-lo/cmake-build-debug/CMakeFiles/hi_lo.dir
