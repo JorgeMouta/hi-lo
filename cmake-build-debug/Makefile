@@ -143,6 +143,33 @@ hi_lo/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hi_lo.dir/build.make CMakeFiles/hi_lo.dir/build
 .PHONY : hi_lo/fast
 
+gameEngine.o: gameEngine.cpp.o
+
+.PHONY : gameEngine.o
+
+# target to build an object file
+gameEngine.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hi_lo.dir/build.make CMakeFiles/hi_lo.dir/gameEngine.cpp.o
+.PHONY : gameEngine.cpp.o
+
+gameEngine.i: gameEngine.cpp.i
+
+.PHONY : gameEngine.i
+
+# target to preprocess a source file
+gameEngine.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hi_lo.dir/build.make CMakeFiles/hi_lo.dir/gameEngine.cpp.i
+.PHONY : gameEngine.cpp.i
+
+gameEngine.s: gameEngine.cpp.s
+
+.PHONY : gameEngine.s
+
+# target to generate assembly for a file
+gameEngine.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hi_lo.dir/build.make CMakeFiles/hi_lo.dir/gameEngine.cpp.s
+.PHONY : gameEngine.cpp.s
+
 getGuess.o: getGuess.cpp.o
 
 .PHONY : getGuess.o
@@ -251,6 +278,33 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hi_lo.dir/build.make CMakeFiles/hi_lo.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+playAgain.o: playAgain.cpp.o
+
+.PHONY : playAgain.o
+
+# target to build an object file
+playAgain.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hi_lo.dir/build.make CMakeFiles/hi_lo.dir/playAgain.cpp.o
+.PHONY : playAgain.cpp.o
+
+playAgain.i: playAgain.cpp.i
+
+.PHONY : playAgain.i
+
+# target to preprocess a source file
+playAgain.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hi_lo.dir/build.make CMakeFiles/hi_lo.dir/playAgain.cpp.i
+.PHONY : playAgain.cpp.i
+
+playAgain.s: playAgain.cpp.s
+
+.PHONY : playAgain.s
+
+# target to generate assembly for a file
+playAgain.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hi_lo.dir/build.make CMakeFiles/hi_lo.dir/playAgain.cpp.s
+.PHONY : playAgain.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -260,6 +314,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... hi_lo"
+	@echo "... gameEngine.o"
+	@echo "... gameEngine.i"
+	@echo "... gameEngine.s"
 	@echo "... getGuess.o"
 	@echo "... getGuess.i"
 	@echo "... getGuess.s"
@@ -272,6 +329,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... playAgain.o"
+	@echo "... playAgain.i"
+	@echo "... playAgain.s"
 .PHONY : help
 
 

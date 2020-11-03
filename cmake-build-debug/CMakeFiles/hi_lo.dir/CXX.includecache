@@ -6,11 +6,39 @@
 
 #IncludeRegexTransform: 
 
-/home/megalo/CLionProjects/hi-lo/getGuess.cpp
+/home/megalo/CLionProjects/hi-lo/gameEngine.cpp
+iostream
+-
+getGuess.h
+/home/megalo/CLionProjects/hi-lo/getGuess.h
+guessChecker.h
+/home/megalo/CLionProjects/hi-lo/guessChecker.h
+getRandomNumber.h
+/home/megalo/CLionProjects/hi-lo/getRandomNumber.h
+playAgain.h
+/home/megalo/CLionProjects/hi-lo/playAgain.h
+
+/home/megalo/CLionProjects/hi-lo/gameEngine.h
+
+/home/megalo/CLionProjects/hi-lo/getGuess.h
+
+/home/megalo/CLionProjects/hi-lo/getRandomNumber.h
+
+/home/megalo/CLionProjects/hi-lo/guessChecker.h
+
+/home/megalo/CLionProjects/hi-lo/main.cpp
+iostream
+-
+gameEngine.h
+/home/megalo/CLionProjects/hi-lo/gameEngine.h
+
+/home/megalo/CLionProjects/hi-lo/playAgain.cpp
 iostream
 -
 limits
 -
 ios
 -
+
+/home/megalo/CLionProjects/hi-lo/playAgain.h
 

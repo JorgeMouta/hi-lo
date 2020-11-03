@@ -82,6 +82,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/megalo/CLionProjects/hi-lo/gameEngine.cpp">
+			<Option target="hi_lo"/>
+		</Unit>
+		<Unit filename="/home/megalo/CLionProjects/hi-lo/gameEngine.h">
+			<Option target="hi_lo"/>
+		</Unit>
 		<Unit filename="/home/megalo/CLionProjects/hi-lo/getGuess.cpp">
 			<Option target="hi_lo"/>
 		</Unit>
@@ -101,6 +107,12 @@
 			<Option target="hi_lo"/>
 		</Unit>
 		<Unit filename="/home/megalo/CLionProjects/hi-lo/main.cpp">
+			<Option target="hi_lo"/>
+		</Unit>
+		<Unit filename="/home/megalo/CLionProjects/hi-lo/playAgain.cpp">
+			<Option target="hi_lo"/>
+		</Unit>
+		<Unit filename="/home/megalo/CLionProjects/hi-lo/playAgain.h">
 			<Option target="hi_lo"/>
 		</Unit>
 		<Unit filename="/home/megalo/CLionProjects/hi-lo/CMakeLists.txt">

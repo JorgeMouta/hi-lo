@@ -94,12 +94,12 @@ clean: CMakeFiles/hi_lo.dir/clean
 CMakeFiles/hi_lo.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hi_lo.dir/build.make CMakeFiles/hi_lo.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hi_lo.dir/build.make CMakeFiles/hi_lo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/megalo/CLionProjects/hi-lo/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5 "Built target hi_lo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/megalo/CLionProjects/hi-lo/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target hi_lo"
 .PHONY : CMakeFiles/hi_lo.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/hi_lo.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/megalo/CLionProjects/hi-lo/cmake-build-debug/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/megalo/CLionProjects/hi-lo/cmake-build-debug/CMakeFiles 7
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/hi_lo.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/megalo/CLionProjects/hi-lo/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/hi_lo.dir/rule
